@@ -9,7 +9,11 @@
 </div>
 
 <div>
-  <a id="timer-button" href="#answer">Время!</a>
+  <a id="timer-button" class="button" href="#answer">Время!</a>
+</div>
+
+<div class="hidden">
+  <a id="open-button" class="button" href="#">Я знаю! Я знаю!</a>
 </div>
 
 <div class="hidden">
@@ -23,5 +27,5 @@
 </div>
 
 <div class="hidden">
-  <a id="next-button" href="/">Еще!</a>
+  <a id="next-button" class="button" href="/">Еще!</a>
 </div>
