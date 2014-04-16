@@ -1,5 +1,5 @@
 
-<div id="question">
+<div id="<% question._id %>" class="question">
   <div>
     <h5><% question.author %> спрашивает:</h5>
   </div>
