@@ -1,0 +1,24 @@
+
+<div id="question">
+  <div>
+    <h5><% question.author %> спрашивает:</h5>
+  </div>
+  <div>
+    <% question.text %>
+  </div>
+</div>
+
+<div>
+  <a id="timer-button" href="#answer">Время!</a>
+</div>
+
+<div class="hidden">
+  <div id="answer">
+    <h5>Ответ</h5>
+    <% question.answer %>
+  </div>
+  <div id="comment">
+    <h5>Комментарий</h5>
+    <% question.comment %>
+  </div>
+</div>
