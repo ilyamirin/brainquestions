@@ -1,10 +1,10 @@
 
 <div id="<% question._id %>" class="question">
   <div>
-    <h5><% question.author %> спрашивает:</h5>
+    <h5><% question.authorName %> спрашивает:</h5>
   </div>
   <div>
-    <% question.text %>
+    <% question.body %>
   </div>
 </div>
 
@@ -12,6 +12,10 @@
   <a id="timer-button" class="button" href="#answer">Время!</a>
 </div>
 
+<div class="hidden">
+    <a id="exhausted-button" class="button" href="#">Время вышло!</a>
+</div>
+ 
 <div class="hidden">
   <a id="open-button" class="button" href="#">Я знаю! Я знаю!</a>
 </div>
