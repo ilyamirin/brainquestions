@@ -9,19 +9,19 @@
 </div>
 
 <div>
-  <a id="timer-button" class="button" href="#answer">Время!</a>
+  <a id="timer-button" class="ui-btn" href="#answer">Время!</a>
 </div>
 
-<div class="hidden">
-    <a id="exhausted-button" class="button" href="#">Время вышло!</a>
+<div class="">
+    <a id="exhausted-button" class="hidden ui-btn" href="#">Время вышло!</a>
 </div>
  
-<div class="hidden">
-  <a id="open-button" class="button" href="#">Я знаю! Я знаю!</a>
+<div class="">
+  <a id="open-button" class="hidden ui-btn" href="#">Мы знаем!</a>
 </div>
 
-<div class="hidden">
-  <div id="answer">
+<div >
+  <div id="answer" class="hidden">
     <div><h5>Ответ</h5></div>
     <div>
       <% question.answer %> 
@@ -30,6 +30,6 @@
   </div>
 </div>
 
-<div class="hidden">
-  <a id="next-button" class="button" href="/">Еще!</a>
+<div class="">
+  <a id="next-button" class="hidden ui-btn" href="/">Еще!</a>
 </div>

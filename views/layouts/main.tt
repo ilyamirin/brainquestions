@@ -3,22 +3,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
 	
-	<title>Брейн-вопросы</title>
+    <title>Брейн-вопросы</title>
 	
 	<link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-	
-	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>	
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
 	<script src="<% request.uri_base %>/javascripts/script.js" type="text/javascript"></script>
 
 </head>
 	<body>
-		<div id="main">
+		<!--div id="main" data-role="header">
+        </div-->
+		<div id="main" class="ui-content">
 			<% content %>
 		</div>
+        <div data-role="footer">
+        </div>
 	</body>
 </html>
